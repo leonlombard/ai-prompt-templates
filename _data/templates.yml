@@ -1,0 +1,85 @@
+categories:
+  - name: Software Engineering
+    templates:
+      - name: Code Review
+        content: |
+          Please review the following code for:
+          1. Code quality and best practices
+          2. Potential bugs or edge cases
+          3. Performance optimizations
+          4. Security concerns
+          
+          Code to review:
+          ```{language}
+          {code}
+          ```
+      - name: Bug Fix
+        content: |
+          I'm encountering the following bug:
+          
+          Error message:
+          ```
+          {error_message}
+          ```
+          
+          Expected behavior:
+          {expected_behavior}
+          
+          Actual behavior:
+          {actual_behavior}
+          
+          Steps to reproduce:
+          1. {step1}
+          2. {step2}
+          3. {step3}
+          
+          Environment:
+          - OS: {os}
+          - Language/Framework: {language_framework}
+          - Version: {version}
+      - name: Code Optimization
+        content: |
+          Please help optimize the following code for:
+          1. Performance
+          2. Memory usage
+          3. Readability
+          
+          Current code:
+          ```{language}
+          {code}
+          ```
+          
+          Current performance metrics:
+          {metrics}
+  
+  - name: Data Science
+    templates:
+      - name: Data Analysis
+        content: |
+          Please analyze the following dataset:
+          
+          Dataset description:
+          {dataset_description}
+          
+          Questions to answer:
+          1. {question1}
+          2. {question2}
+          3. {question3}
+          
+          Available data:
+          {data_description}
+      - name: Model Evaluation
+        content: |
+          Please evaluate the following model:
+          
+          Model type: {model_type}
+          Training data: {training_data}
+          Test data: {test_data}
+          
+          Metrics to evaluate:
+          1. {metric1}
+          2. {metric2}
+          3. {metric3}
+          
+          Current results:
+          {current_results} 
