@@ -4,7 +4,7 @@ title: AI Prompt Templates
 ---
 
 <div class="container">
-  <h1>AI Prompt Templates</h1>
+  <h1>Select a template</h1>
   
   <div class="form-container">
     <div class="form-group">
