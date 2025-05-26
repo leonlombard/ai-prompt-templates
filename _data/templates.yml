@@ -1,4 +1,13 @@
 categories:
+  - name: General
+    templates:
+    - name: Generic
+      content: |
+        Act as a [ROLE]
+        I'm trying to [CONTEXT]
+        Create a [TASK]
+        Format the output as [FORMAT]
+
   - name: Software Engineering
     templates:
       - name: Code Review
